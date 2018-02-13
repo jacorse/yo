@@ -82,10 +82,12 @@ CREATE TABLE StayIn (
 	startDate date Primary Key,
 	endDate date);
 
+CREATE TABLE ASDF (
+	roomNum integer Primary);
 
+#im adding comments
 
-
-
+#comment number 2
 
 
 

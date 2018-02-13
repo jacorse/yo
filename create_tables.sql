@@ -71,24 +71,6 @@ CREATE TABLE Admission (
 	patientSSN integer,
 	futureVisit date);
 
-CREATE TABLE Examinations (
-	doctorID char(4) Primary Key,
-	admissionNum integer Primary Key,
-	comment varchar2(50));
-
-CREATE TABLE StayIn (
-	admissionNum integer Primary Key,
-	roomNum integer Primary Key,
-	startDate date Primary Key,
-	endDate date);
-
-CREATE TABLE ASDF (
-	roomNum integer Primary);
-
-#im adding comments
-
-#comment number 2
-
 
 
 
